@@ -1,1 +1,16 @@
 /* Place CSS styles here */
+body {
+    color: #FF6663;
+    background-color: beige;
+    max-width: 500px;
+    margin: 0 auto;
+}
+html {
+    scroll-behavior: smooth;
+}
+a:hover {
+    color: #E0FF4F;
+}
+.about-text-title:active  {
+    color: blueviolet;
+}
