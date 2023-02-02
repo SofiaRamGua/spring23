@@ -1,9 +1,9 @@
 /* Place CSS styles here */
 body {
-    color: #FF6663;
     background-color: beige;
-    max-width: 500px;
-    margin: 0 auto;
+}
+div {
+    
 }
 html {
     scroll-behavior: smooth;
@@ -13,4 +13,7 @@ a:hover {
 }
 .about-text-title:active  {
     color: blueviolet;
+}
+.cat {
+    color: purple;
 }
