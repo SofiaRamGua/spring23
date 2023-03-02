@@ -16,4 +16,35 @@ a:hover {
 }
 .cat {
     color: purple;
+    
+}
+.square {
+    width: 100px;
+    height:100px;
+    background-color: rgb(230, 144, 32);
+    color: beige;
+    transition: color 1s ease;
+}
+.square:focus {
+    box-shadow: 0 0 0 4px rgb(59, 21, 212);
+
+}
+.primary-button {
+    margin: 30px;
+    padding: 10px;
+    color:lightcoral;
+    background-color: rgb(13, 13, 95);
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    transition: all 1s ease;
+
+}
+
+.primary-button:hover {
+    color: #E0FF4F;
+    background-color: lightcoral;
+    
+}
+.primary-button:focus {
 }
