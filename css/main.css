@@ -18,13 +18,7 @@ a:hover {
     color: purple;
     
 }
-.square {
-    width: 100px;
-    height:100px;
-    background-color: rgb(230, 144, 32);
-    color: beige;
-    transition: color 1s ease;
-}
+
 .square:focus {
     box-shadow: 0 0 0 4px rgb(59, 21, 212);
 
@@ -59,9 +53,62 @@ a:hover {
     border: 0;
 }
 /* t-hidden to hide span text but is still visible to screen readers */
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     body {
         color: rgb(192, 61, 61);
+        
+    }
+    img {
+        width: 40%;
     }
     
 }
+
+/* gridpage */
+
+.big {
+    
+}
+.squares-wrap {
+
+}
+.square {
+    width: 230px;
+    height: 230px;
+    background-color: rgb(230, 144, 32);
+    gap: 10px;
+}
+.squares1 {
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    justify-content: center;
+}
+.squares2 {
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    justify-content: center;
+}
+.squares3 {
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    justify-content: center;
+    
+}
+@media screen and (max-width: 400px){
+    .squares-wrap{
+        
+    }
+    .squares1  {
+        flex-direction: column;
+    }
+    .squares2  {
+        flex-direction: column;
+    }
+    .squares3  {
+        flex-direction: column;
+    }
+}
+/* flex-direction:column; to stack */
